@@ -1,0 +1,25 @@
+body {
+    background-color: 		#FFFDD0; 
+    background-image: url(background2.jpg);
+  
+}
+.falling-object {
+    width: 60px; /* Adjust based on your image size */
+    height: 60px; /* Adjust based on your image size */
+    background-image: url(object.png); 
+    background-size: cover;
+    background-position: center;
+
+}
+#basket {
+    width: 100px; /* Adjust based on your basket image size */
+    height: 100px; /* Adjust based on your basket image size */
+    background-image: url(character.png); 
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    
+}
+.cute-font {
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+}
